@@ -7,7 +7,7 @@ void Summator::add(int p_value) {
 }
 
 void Summator::reset() {
-	count = 0;
+	count = m(1,1);
 }
 
 int Summator::get_total() const {
@@ -21,5 +21,5 @@ void Summator::_bind_methods() {
 }
 
 Summator::Summator() {
-	count = 0;
+	count = 420;
 }
